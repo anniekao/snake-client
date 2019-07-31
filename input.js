@@ -33,6 +33,8 @@ const handlerUserInput = key => {
   case "t":
     connection.write("Say: Wooo!", () => {});
     break;
+  case "x":
+    connection.write("Say: Holy crow!", () => {});
   }
   
 };
