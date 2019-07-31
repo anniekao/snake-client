@@ -13,9 +13,6 @@ const connect = function() {
     conn.write("Name: AK", () => {});
   });
 
-
-  
-
   conn.on("data", data => {
     console.log("Server says: ", data);
   });
